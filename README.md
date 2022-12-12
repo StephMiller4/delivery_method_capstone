@@ -12,10 +12,14 @@ This is a topic I became interested in after watching the documentary “The Bus
  DATA QUESTION
 I want to try to understand if there is a correlation to high c-section rates and race and also to income levels. If there is no correlation, I want to do further analysis into why Louisiana, Mississippi, and Florida are always in the top for highest c-section rates.
 
+CONSIDERATIONS:
+Using the CDC's WONDER data system I am only able to get up to 5 variables at a time and becasue there isn't a unique identifier I have to work with the tables individually instead of merging them to drop columns or rows and then being able to pull out the information I need, I have to drop and rename columns in each table. S
 
-YEARS EXAMINED: 2014-2019*
+YEARS EXAMINED: 2016-2019*
 *This does not include cesarean sections by country as the data from the World Health Organization had various dates for each country. This data was not used in analysis beyond looking at the global rates as a whole.
 
+FOR FURTHER EXAMINATION:
+Deeper dive into top and three bottom states individually
 
 SOURCES:
 Centers for Disease Control and Prevention. (2022, February 25). Stats of the states - cesarean delivery rates.
