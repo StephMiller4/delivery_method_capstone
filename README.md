@@ -1,42 +1,44 @@
-# delivery_method_capstone
-Capstone project exploring why the cesarean section rate in the US is 2-3 times what the World Health Organization recommends.
+## DELIVERY METHOD CAPSTONE
+The goal of Capstone project is to look at various demographic to try to understand why the cesarean section rate in the US is 2-3 times what the World Health Organization recommends.
 
-###EXECUTIVE SUMMARY
+### EXECUTIVE SUMMARY
 For my capstone project I would like to look at caesarean sections. The World Health Organization recommends countries not exceed 10 to 15 percent but the US was at 32.1% in 2021; up from 20.7 in 1996. I’m curious to investigate how this compares with other developed countries, a breakdown by race in the US and by geographical area. I would like to spend most of my time focused on the US so I will briefly show how the US compares to the world. In addition to my presentation, I am hoping to create an infographic that will clearly tell the story of my data.
 
-###MOTIVATION
+### MOTIVATION
 This is a topic I became interested in after watching the documentary “The Business of Being Born” and about learning how the US c-section rate is 2-3 times higher than what the WHO recommends but after doing a bit of research I found a map with percentages by state and found that Louisiana, Mississippi, and Florida have the highest percentage of c sections year after year.
 
-###DATA QUESTION
+### DATA QUESTION
 I want to try to understand if there is a correlation to high c-section rates and race and also to income levels. If there is no correlation, I want to do further analysis into why Louisiana, Mississippi, and Florida are always in the top for highest c-section rates.
 
-###CONSIDERATIONS:
-Using the CDC's WONDER data system I am only able to get up to 5 variables at a time and becasue there isn't a unique identifier I have to work with the tables individually instead of merging them to drop columns or rows and then being able to pull out the information I need, I have to drop and rename columns in each table. S
+### CONSIDERATIONS
+Using the CDC's WONDER data system I am only able to get up to five variables at a time and because there isn't a unique identifier I have to work with the tables individually instead of merging them to drop columns or rows and then being able to pull out the information I need, I have to drop and rename columns in each table.
 
-###YEARS EXAMINED: 2016-2019*
+### YEARS EXAMINED: 2016-2019*
 *This does not include cesarean sections by country as the data from the World Health Organization had various dates for each country. This data was not used in analysis beyond looking at the global rates as a whole.
 
-###TECHNOLOGY USED:
-Python
-    -Jupyter Python
-    -Pandas
-    -Numpy
-    -Webscraping and Beautiful Soup
-    -Data Cleaning
-    -analysis
-Excel
-    -Converting .txt file to .csv
-    -Offset Function
+### TECHNOLOGIES USED:
+##### Python
 
-Tableau
-    -Graph and Chart creation
-    -Dashboard
-    -Tableau Story
+  - Jupyter Python
+  - Pandas
+  - Numpy
+  - Webscraping and Beautiful Soup
+  - Data Cleaning
+  - Analysis
 
-###FOR FURTHER EXAMINATION:
+##### Excel
+  - Converting .txt file to .csv
+  - Offset Function
+
+##### Tableau
+  - Graph and Chart creation
+  - Dashboard
+  - Tableau Story
+
+### FOR FURTHER EXAMINATION:
 Deeper dive into top and three bottom states individually
 
-###SOURCES:
+### SOURCES:
 Centers for Disease Control and Prevention. (2022, February 25). Stats of the states - cesarean delivery rates.
     Centers for Disease Control and Prevention. Retrieved December 1, 2022, from
     https://www.cdc.gov/nchs/pressroom/sosmap/cesarean_births/cesareans.htm
